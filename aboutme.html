@@ -1,0 +1,238 @@
+<title>Event</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    /* Layout Declarations */
+    color: #F1C863;
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+}
+
+section > h1 {
+    margin-top: 2em;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('https://wallpaperxyz.com/wp-content/uploads/Website-Background-Images-HD-Free-Download-Wallpaperxyz.com-37.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.content-footer {
+  margin: 50px 0;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #F28153;
+  text-decoration: none;
+}
+.social > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.content-footer > p {
+  color: #F7EDE1;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #F1C863;
+}
+  
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+    .content-footer {
+        padding: 2em 2.5em;
+  }
+}
+</style>
+
+<header class='masthead'>
+  <p class='masthead-intro'>Halo, Saya</p>
+  <h1 class='masthead-heading'>Wadi!</h1>
+</header>
+
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="aboutme.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Me</a>
+    <a href="shop.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Shop</a>
+    <a href="myblog.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">My Blog</a>
+    <a href="event.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Event</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="aboutme.html" class="w3-bar-item w3-button w3-padding-large">About Me</a>
+    <a href="shop.html" class="w3-bar-item w3-button w3-padding-large">Shop</a>
+    <a href="myblog.html" class="w3-bar-item w3-button w3-padding-large">My Blog</a>
+    <a href="event.html" class="w3-bar-item w3-button w3-padding-large">Event</a>
+  </div>
+</div>
+
+<section class="introduction-section">
+    <h1>Introduction</h1>
+    <p>Nama Saya Wadi Wahyudin.</p>
+    <p>Kelas Saya di 2IA19.</p>
+    <p>Saya angkatan ke 19.</p>
+    <p>Di Universitas Gunadarma.</p>
+</section>
+<section class="location-section">
+    <h1>Dimana Saya tinggal?</h1>
+    <p>Saya tinggal di Kabupaten Bekasi, Cikarang Utara </p>
+</section>
+<section class="questions-section">
+    <h1>More About Me</h1>
+    <h2>Apa job impianmu?</h2>
+    <p>Menjadi Programmer yang ahli membuat game dan web developer.</p>
+    <h2>Dimana kamu tinggal?</h2>
+    <p>Saya tinggal di Cikarang Utara.</p>
+    <h2>Kenapa ingin menjadi web developer?</h2>
+    <p>Karena menjadi web developer itu menarik.</p>
+</section>
+
+<footer class="content-footer">
+    <p>Sosial Media yang Saya gunakan saat ini:</p>
+    <ul class="social">
+        <li><a class="css-is-deranged" href="_INSERT_GITHUB_URL_HERE_">GitHub</a></li>
+        <li><a class="css-is-deranged" href="https://www.instagram.com/dhi.amvilux/">Instagram</a></li>
+        <li><a class="css-is-deranged" href="_INSERT_GOOGLE+_URL_HERE_">Google+</a></li>
+    </ul>
+  
+</footer>
+
+	<script>
+		// Used to toggle the menu on small screens when clicking on the menu button
+		function myFunction() {
+		  var x = document.getElementById("navDemo");
+		  if (x.className.indexOf("w3-show") == -1) {
+			x.className += " w3-show";
+		  } else { 
+			x.className = x.className.replace(" w3-show", "");
+		  }
+		}
+</script>
+
+</body>
+
+
+
+
