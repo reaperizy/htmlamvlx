@@ -1,4 +1,4 @@
-<title>Event</title>
+<title>About Me</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,8 +22,8 @@ body {
 }
 
 .masthead {
-  padding: 6em 0;
-  background-image: url('');
+  padding: 4.5em 0;
+  background-image: url('https://media.licdn.com/dms/image/D5616AQHg6SC3v0U_OA/profile-displaybackgroundimage-shrink_350_1400/0/1700652280891?e=1706140800&v=beta&t=ZlL3cjskS6YNg4vzDc28vRjGRyMCLDqTgsrv3zxE__s');
   background-size: cover;
   background-repeat: no-repeat;
   border-top: solid 1em #FFCF33;
@@ -35,6 +35,7 @@ body {
     /* Typography Declarations */
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 2em;
+    color: brown;
 }
 
 .masthead-heading {
@@ -85,13 +86,13 @@ section > h1 {
   text-align: center;
 }
 
-.masthead {
-  padding: 6em 0;
-  background-image: url('https://wallpaperxyz.com/wp-content/uploads/Website-Background-Images-HD-Free-Download-Wallpaperxyz.com-37.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-top: solid 1em #FFCF33;
-}
+/*.masthead {*/
+/*  padding: 6em 0;*/
+/*  background-image: url('https://media.licdn.com/dms/image/D5616AQFWMS2SylGkIg/profile-displaybackgroundimage-shrink_350_1400/0/1700651683295?e=1706140800&v=beta&t=iJ3S7tpHvw7VYV-N0CKsNQTDN-Z7CWtIpw8lBaq74k8');*/
+/*  background-size: cover;*/
+/*  background-repeat: no-repeat;*/
+/*  border-top: solid 1em #FFCF33;*/
+/*}*/
 
 .masthead-intro {
   margin-bottom: 0.1em;
@@ -148,6 +149,33 @@ a {
     text-decoration: none;
     color: #F1C863;
 }
+
+.profile-image {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto; /* Center the image */
+  display: block;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #F1C863;
+  color: #222222;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #F28153; /* Change the color on hover as desired */
+}
+
+
   
 @media only screen and (max-width: 500px) {
     .masthead {
@@ -163,58 +191,62 @@ a {
 </style>
 
 <header class='masthead'>
+  <a href='your_profile_link.html'>
+    <img class='profile-image' src='https://media.licdn.com/dms/image/D5603AQGdgcVTIpnjOg/profile-displayphoto-shrink_400_400/0/1688957207950?e=1706140800&v=beta&t=l5bfoZoiVfEMX2KPqRtHnuy6wl3DVyr0eM6_ozUSTp8' alt='Wadi' />
+  </a>
   <p class='masthead-intro'>Halo, Saya</p>
   <h1 class='masthead-heading'>Wadi!</h1>
 </header>
 
+
+
 <body>
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="aboutme.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Me</a>
-    <a href="shop.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Shop</a>
-    <a href="myblog.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">My Blog</a>
-    <a href="event.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Event</a>
-  </div>
+<!--<div class="w3-top">-->
+<!--  <div class="w3-bar w3-red w3-card w3-left-align w3-large">-->
+<!--    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>-->
+<!--    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>-->
+<!--    <a href="aboutme.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Me</a>-->
+<!--    <a href="shop.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Shop</a>-->
+<!--    <a href="myblog.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">My Blog</a>-->
+    <!--<a href="event.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Event</a>-->
+<!--  </div>-->
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="aboutme.html" class="w3-bar-item w3-button w3-padding-large">About Me</a>
-    <a href="shop.html" class="w3-bar-item w3-button w3-padding-large">Shop</a>
-    <a href="myblog.html" class="w3-bar-item w3-button w3-padding-large">My Blog</a>
-    <a href="event.html" class="w3-bar-item w3-button w3-padding-large">Event</a>
-  </div>
-</div>
+<!--  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">-->
+<!--    <a href="aboutme.html" class="w3-bar-item w3-button w3-padding-large">About Me</a>-->
+<!--    <a href="shop.html" class="w3-bar-item w3-button w3-padding-large">Shop</a>-->
+<!--    <a href="myblog.html" class="w3-bar-item w3-button w3-padding-large">My Blog</a>-->
+    <!--<a href="event.html" class="w3-bar-item w3-button w3-padding-large">Event</a>-->
+<!--  </div>-->
+<!--</div>-->
 
 <section class="introduction-section">
     <h1>Introduction</h1>
-    <p>Nama Saya Wadi Wahyudin.</p>
-    <p>Kelas Saya di 2IA19.</p>
-    <p>Saya angkatan ke 19.</p>
-    <p>Di Universitas Gunadarma.</p>
+    <p>Hello my name is Wadi Wahyudin, I am a person who is highly motivated at work, has good communication and is quick to learn new things. I love challenges. I have been associated with the world of computers since I was in junior high school until now. In my daily life, I like to explore the world of computers, especially programming.</p>
 </section>
 <section class="location-section">
     <h1>Dimana Saya tinggal?</h1>
     <p>Saya tinggal di Kabupaten Bekasi, Cikarang Utara </p>
 </section>
 <section class="questions-section">
-    <h1>More About Me</h1>
-    <h2>Apa job impianmu?</h2>
-    <p>Menjadi Programmer yang ahli membuat game dan web developer.</p>
-    <h2>Dimana kamu tinggal?</h2>
-    <p>Saya tinggal di Cikarang Utara.</p>
-    <h2>Kenapa ingin menjadi web developer?</h2>
-    <p>Karena menjadi web developer itu menarik.</p>
+    <h1>Project Portofolio</h1>
+	<h2>Data Dashboard:</h2>
+<a href="https://lookerstudio.google.com/reporting/1448b528-47cf-47ef-81c1-49ccb04e9523" class="button">Top Richest Athletes in Every Sports on 1990-2020</a>
+<a href="https://lookerstudio.google.com/reporting/60f386c8-8de2-42be-bf11-97a444e4020c" class="button">Stroke Prediction</a>
+    <h2>Mobile Application:</h2>
+    <a href="https://lookerstudio.google.com/reporting/60f386c8-8de2-42be-bf11-97a444e4020c" class="button">KWI App</a>
+    <h2>Game Development</h2>
+     <a href="https://reaperizy.itch.io/museum-3d-multiplayer" class="button">Museum 3D Multiplayer</a>
+    <!-- <p>Karena menjadi web developer itu menarik.</p> -->
 </section>
 
 <footer class="content-footer">
     <p>Sosial Media yang Saya gunakan saat ini:</p>
     <ul class="social">
-        <li><a class="css-is-deranged" href="_INSERT_GITHUB_URL_HERE_">GitHub</a></li>
+        <li><a class="css-is-deranged" href="https://github.com/reaperizy">GitHub</a></li>
         <li><a class="css-is-deranged" href="https://www.instagram.com/dhi.amvilux/">Instagram</a></li>
-        <li><a class="css-is-deranged" href="_INSERT_GOOGLE+_URL_HERE_">Google+</a></li>
+        <li><a class="css-is-deranged" href="https://www.linkedin.com/in/wadi-wahyudin-39579b15b/">LinkedIn</a></li>
     </ul>
   
 </footer>
@@ -230,9 +262,4 @@ a {
 		  }
 		}
 </script>
-
 </body>
-
-
-
-
